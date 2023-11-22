@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  idm:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-11-22T15:59:13.344120259+01:00"
+    description: IDM enabler
+    digest: 60a3db2341ba88d13c0132f9fe31052a861f867b5b6adefcbb6ac4de529e0777
+    name: idm
+    type: application
+    urls:
+    - idm-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-22T15:59:13.343190421+01:00"
