@@ -13,10 +13,10 @@ enablerNodeSelector: {}
 keycloak:
   tier: external
   image:
-    repository: quay.io/keycloak/keycloak
+    repository: assistiot/identity-manager_kc
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
-    tag: legacy
+    tag: "latest"
 
   replicaCount: 1
   service:
@@ -77,7 +77,7 @@ keycloak:
 database:
   tier: internal
   image:
-    repository: postgres
+    repository: assistiot/identity-manager_db
     pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: "latest"
